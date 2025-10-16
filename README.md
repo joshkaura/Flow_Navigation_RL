@@ -1,9 +1,9 @@
 # Minimal RL for Flow Navigation (Tabular + PPO-FF + PPO-LSTM)
 
 This repo contains an RL setup for learning to navigate a graph-like “flow” under partial observability. It’s written in 3 files:  
-- `env3.py` – environment (graph world, popups, optional training-only shaping)  
-- `agents3.py` – Tabular Q, PPO-FF, PPO-LSTM (sequence-aware)  
-- `train3.py` – training loops, evaluation, plots, JSON logging
+- `env.py` – environment (graph world, popups, optional training-only shaping)  
+- `agents.py` – Tabular Q, PPO-FF, PPO-LSTM (sequence-aware)  
+- `train.py` – training loops, evaluation, plots, JSON logging
 
 ---
 
