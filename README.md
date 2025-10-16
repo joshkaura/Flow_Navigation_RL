@@ -14,7 +14,7 @@ This repo contains an RL setup for learning to navigate a graph-like “flow” 
 **Terminals:** one goal node (+1) and occasional failure nodes (−1).  
 **Base rewards:** step penalty (−0.02) + first-visit bonus (+0.10).  
 **Training-only shaping (safe):** potential‐based term `φ(s′) − φ(s)` with `φ` from inverse shortest-path distance to goal. Shaping is on in training, **off** in evaluation.  
-**Observation (stationary across graphs):** 13-D = 10 local binary features + `[visited_frac, step_frac, φ]`. No node one-hot → better generalization across randomly generated graphs.
+**Observation (stationary across graphs):** 13-D = 10 local binary features + `[visited_frac, step_frac, φ]`. No node one-hot → better generalisation across randomly generated graphs.
 
 **Distributions for generalisation:**  
 - *Simple* (in-distribution)  
