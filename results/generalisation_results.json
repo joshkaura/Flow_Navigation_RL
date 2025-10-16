@@ -1,0 +1,74 @@
+{
+  "Simple (in-distribution)": {
+    "PPO-FF": {
+      "success_rate": 0.13,
+      "failure_rate": 0.125,
+      "avg_reward": -1.6184000000000003,
+      "std_reward": 1.2392503540447348,
+      "avg_length": 38.68,
+      "avg_coverage": 0.2875
+    },
+    "PPO-LSTM": {
+      "success_rate": 0.35,
+      "failure_rate": 0.24,
+      "avg_reward": -0.6660000000000003,
+      "std_reward": 1.3748774490840996,
+      "avg_length": 22.965,
+      "avg_coverage": 0.415
+    }
+  },
+  "Medium (moderate shift)": {
+    "PPO-FF": {
+      "success_rate": 0.06,
+      "failure_rate": 0.21,
+      "avg_reward": -3.267999999999999,
+      "std_reward": 1.9325485763623107,
+      "avg_length": 45.61,
+      "avg_coverage": 0.21625
+    },
+    "PPO-LSTM": {
+      "success_rate": 0.105,
+      "failure_rate": 0.36,
+      "avg_reward": -2.1881,
+      "std_reward": 1.7894704216611117,
+      "avg_length": 34.03,
+      "avg_coverage": 0.28958333333333336
+    }
+  },
+  "Hard (larger shift)": {
+    "PPO-FF": {
+      "success_rate": 0.015,
+      "failure_rate": 0.28,
+      "avg_reward": -4.926599999999994,
+      "std_reward": 2.7449641964878113,
+      "avg_length": 50.835,
+      "avg_coverage": 0.155
+    },
+    "PPO-LSTM": {
+      "success_rate": 0.025,
+      "failure_rate": 0.37,
+      "avg_reward": -4.050499999999996,
+      "std_reward": 2.7389647222992806,
+      "avg_length": 43.665,
+      "avg_coverage": 0.1953125
+    }
+  },
+  "Shifted (deeper + popups)": {
+    "PPO-FF": {
+      "success_rate": 0.0,
+      "failure_rate": 0.315,
+      "avg_reward": -9.078599999999987,
+      "std_reward": 5.4963491555759,
+      "avg_length": 63.1,
+      "avg_coverage": 0.10700000000000001
+    },
+    "PPO-LSTM": {
+      "success_rate": 0.0,
+      "failure_rate": 0.445,
+      "avg_reward": -7.4049999999999905,
+      "std_reward": 5.627862382823509,
+      "avg_length": 51.515,
+      "avg_coverage": 0.13949999999999999
+    }
+  }
+}
