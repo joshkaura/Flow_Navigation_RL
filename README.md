@@ -2,7 +2,7 @@
 
 This repo contains an RL setup for learning to navigate a graph-like “flow” under partial observability. It’s written in 3 files:  
 - `env.py` – environment (graph world, popups, optional training-only shaping)  
-- `agents.py` – Tabular Q, PPO-FF, PPO-LSTM (sequence-aware)  
+- `agents.py` – Tabular Q, PPO-FF, PPO-LSTM 
 - `train.py` – training loops, evaluation, plots, JSON logging
 
 ---
