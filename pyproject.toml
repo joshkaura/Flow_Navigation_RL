@@ -1,0 +1,12 @@
+[project]
+name = "flow-navigation-rl"
+version = "0.1.0"
+description = "Tabular Q, PPO-FF and PPO-LSTM navigating randomly generated directed graphs with popups."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "torch",
+    "tqdm",
+]
