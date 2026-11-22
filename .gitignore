@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+data/
+runs/
+release-assets/
+*.pt
+*.pth
+*.mp4
+*.mov
